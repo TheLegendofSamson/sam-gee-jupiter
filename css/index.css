@@ -1,0 +1,57 @@
+* {
+    margin: 25px;
+    background-color: pink;
+}
+
+.meow-script-regular {
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.delius-swash-caps-regular {
+    font-family: "Delius Swash Caps", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.spectral-regular {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Meow Script";
+    font-size: 100px;
+    text-align: center;
+    color: rgb(250, 243, 144);
+}
+
+h2 {
+    font-family: "Delius Swash Caps";
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: "Spectral";
+    text-align: center;
+    outline: 5px solid rgb(250, 243, 144);
+    padding: 10px;
+}
+
+li {
+    font-family: "Spectral";
+    margin: 10px;
+}
+
+img {
+    height: auto;
+    width: 100px;
+}
+
+ul {
+    outline: 5px solid rgb(250, 243, 144);
+}
