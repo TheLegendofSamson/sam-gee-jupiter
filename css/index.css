@@ -49,16 +49,32 @@ p {
     padding: 10px;
 }
 
-ul {
+/*ul {
     outline: 5px solid rgb(250, 243, 144);
 }
 
 li {
     font-family: "Spectral";
     margin: 10px;
-}
+}*/
 
 img {
     height: auto;
     width: 100px;
+}
+
+nav {
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    border: 5px solid rgb(250, 243, 144);
+    height: 150px;
+    font-family: "Spectral";
+    text-align: center;
+    flex: 1;
 }
