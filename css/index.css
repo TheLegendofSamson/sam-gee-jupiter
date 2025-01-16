@@ -42,21 +42,11 @@ h2 {
     color: white;
 }
 
-p {
+.about {
     font-family: "Spectral";
     text-align: center;
-    outline: 5px solid rgb(250, 243, 144);
-    padding: 10px;
+    border: 5px solid rgb(250, 243, 144);
 }
-
-/*ul {
-    outline: 5px solid rgb(250, 243, 144);
-}
-
-li {
-    font-family: "Spectral";
-    margin: 10px;
-}*/
 
 img {
     height: auto;
@@ -67,14 +57,34 @@ nav {
     display: block;
 }
 
-.flex-container {
+.experience-container {
     display: flex;
+    flex-direction: row;
 }
 
-.flex-container div {
+.list {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(250, 243, 144);
+    font-family: "Spectral";
+}
+
+h5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.connect-container {
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 5px solid rgb(250, 243, 144);
     height: 150px;
     font-family: "Spectral";
-    text-align: center;
-    flex: 1;
 }
